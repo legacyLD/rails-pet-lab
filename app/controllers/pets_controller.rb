@@ -6,6 +6,8 @@ class PetsController < ApplicationController
   end
 
   def show
+    pet_id = params[:id]
+    @pet = Pet.find_by(id: pet_id)
   end
 
   # TODO: set up *new* method with data for new view
