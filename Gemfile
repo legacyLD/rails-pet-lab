@@ -17,7 +17,13 @@ gem 'jbuilder', '>= 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '>= 0.4.0', group: :doc
 
+<<<<<<< HEAD
 gem 'bcrypt'
+=======
+
+gem 'bcrypt'
+
+>>>>>>> 16193af9c35a497e1a3e356d907e825abe68bd5a
 # Access an IRB console on exception pages or by using <%= console %> in views
 gem 'web-console', '>= 2.0', group: :development
 
