@@ -1,4 +1,4 @@
-# <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> Pet App!
+# <img src="https://cloud.githubownercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> Pet App!
 
 ### Overview
 
@@ -23,7 +23,7 @@ Practice:
 
 ## [Part 1: Owners Have Many Pets](docs/part-1.md)
 
-![owner-pet-erd](https://cloud.githubusercontent.com/assets/3254910/22278438/6dd48c66-e278-11e6-8ed6-d24af148672b.png)
+![owner-pet-erd](https://cloud.githubownercontent.com/assets/3254910/22278438/6dd48c66-e278-11e6-8ed6-d24af148672b.png)
 
 In this part, you'll:
 
@@ -36,7 +36,7 @@ And more!
 
 ## [Part 2: Pets Have Many Appointments](docs/part-2.md)
 
-![owner-pet-appointment-erd](https://cloud.githubusercontent.com/assets/3254910/22278437/6bc4468c-e278-11e6-9813-1855a623a323.png)
+![owner-pet-appointment-erd](https://cloud.githubownercontent.com/assets/3254910/22278437/6bc4468c-e278-11e6-9813-1855a623a323.png)
 
 In this part, you'll:
 
@@ -50,7 +50,7 @@ And more!
 
 ## [Part 3: Owners Have Many Appointments, through Pets](docs/part-3.md)
 
-![has-many-through](https://cloud.githubusercontent.com/assets/3254910/22279369/4fbfcff4-e27f-11e6-94a9-472309b0cdb3.png)
+![has-many-through](https://cloud.githubownercontent.com/assets/3254910/22279369/4fbfcff4-e27f-11e6-94a9-472309b0cdb3.png)
 
 In this part, you'll:
 
@@ -65,7 +65,7 @@ And more!
 
 In this optional section, you could try one of the following tasks:
 
-* Navigation: practice using path helper methods by adding `link_to`s to help users move among the pages of your site.
+* Navigation: practice using path helper methods by adding `link_to`s to help owners move among the pages of your site.
 
 * Full CRUD: Create or fill in routes, controllers, and views for the missing crud actions for owners, pets, and/or appointments.  
 
@@ -77,7 +77,7 @@ In this part, you'll:
 
 * Add validations to owners to pass tests.
 
-* Use flash messages to tell users what's wrong if owner creation fails.
+* Use flash messages to tell owners what's wrong if owner creation fails.
 
 * Use TDD for pet validations - write tests to make sure the model requires a name and breed. Then write code to pass your tests.
 

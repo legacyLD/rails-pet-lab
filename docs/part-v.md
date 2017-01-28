@@ -34,7 +34,7 @@
    irb(main):001:4> guy.valid?
    ```
 
-4. Still in the Rails console, use `.errors.full_messages` to display the user-friendly error messages for the invalid owner you just created.
+4. Still in the Rails console, use `.errors.full_messages` to display the owner-friendly error messages for the invalid owner you just created.
 
 #### Refactor Controller to Handle Errors
 
@@ -62,7 +62,7 @@
     For now, redirect back to the page with the form.  If you don't remember the path helper method to use, `rails routes` in your Terminal and check the prefixes!
   </details>
 
-2. Once you've refactored `owners#create` to redirect in the case of an error, add flash messages to show the user the specific validation error they triggered, so they won't make the same mistake twice.
+2. Once you've refactored `owners#create` to redirect in the case of an error, add flash messages to show the owner the specific validation error they triggered, so they won't make the same mistake twice.
 
   <details>
     <summary>Hint: where to set the flash message?</summary>
@@ -79,11 +79,11 @@
 
 1. You already have routes for `owners#edit` and `owners#update`, since  `routes.rb` calls `resources :owners`. Now, set up controller methods for `owners#edit` and `owners#update`, as well as a view for editing owners (edit form).
 
-2. Make sure your `owners#update` method also handles errors by redirecting if the user submits invalid data and displaying a flash message in the view.
+2. Make sure your `owners#update` method also handles errors by redirecting if the owner submits invalid data and displaying a flash message in the view.
 
 1. Common keys for flash messages are `:notice`, which just displays some information, and `:error`, which means something has gone wrong. Add styling to visually distinguish between these kinds of flash messages.
 
-1. If you look at `seeds.rb`, you'll see FFaker is set up to generate seed data. In your Rails console, try `FFaker::PhoneNumber.phone_number` a few times. Just like real user data, the phone numbers don't have a standard format.  Fill in the `normalize_phone_number` method so that it will:
+1. If you look at `seeds.rb`, you'll see FFaker is set up to generate seed data. In your Rails console, try `FFaker::PhoneNumber.phone_number` a few times. Just like real owner data, the phone numbers don't have a standard format.  Fill in the `normalize_phone_number` method so that it will:
   * remove `1` from the beginning of the owner's phone number, and   
   * remove the characters `(`, `)`, `-`, and `.` from the owner's phone number.
 

@@ -13,7 +13,7 @@ class PetsController < ApplicationController
   # TODO: set up *new* method with data for new view
 
   # TODO: set up *create* method with database interactions for create
-  # TODO: handle save errors and communicate issues to user
+  # TODO: handle save errors and communicate issues to owner
 
   private
   def pet_params

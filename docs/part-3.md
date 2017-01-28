@@ -1,6 +1,6 @@
 ## Part 3: Owners Have Many Appointments, through Pets
 
-![has-many-through](https://cloud.githubusercontent.com/assets/3254910/22279369/4fbfcff4-e27f-11e6-94a9-472309b0cdb3.png)
+![has-many-through](https://cloud.githubownercontent.com/assets/3254910/22279369/4fbfcff4-e27f-11e6-94a9-472309b0cdb3.png)
 
 Wouldn't it be nice to get a list of all an owner's appointments?  Rails makes it convenient to do this if we set up a `has_many :through` relationship. Once it's set up, `owner.appointments` will list all the appointments an owner has based on their pets.
 
@@ -16,7 +16,7 @@ Wouldn't it be nice to get a list of all an owner's appointments?  Rails makes i
 
 Create a page at `/owners/:owner_id/appointments` that lists all of an owner's appointments by following the guidelines below.
 
-1. Add a convenience route for users to `GET /owners/:owner_id/appointments`. Give it a prefix of `owner_appointments`. Route it to an `appointments` action in the owners controller.
+1. Add a convenience route for owners to `GET /owners/:owner_id/appointments`. Give it a prefix of `owner_appointments`. Route it to an `appointments` action in the owners controller.
 
   > Note that this isn't technically one of the RESTful routes listed in the [Routing](http://guides.rubyonrails.org/routing.html#nested-resources) Rails guide.
 

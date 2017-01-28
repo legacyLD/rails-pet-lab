@@ -2,9 +2,9 @@
 
 Three types of stretch challenges lay before you. Pick and implement any set(s) you find interesting.
 
-#### Circumnavigate the Site for User Experience
+#### Circumnavigate the Site for owner Experience
 
-Practice using path helper methods by adding `link_to`s to help users move among the pages of your site. Consider adding:  
+Practice using path helper methods by adding `link_to`s to help owners move among the pages of your site. Consider adding:  
   * a link to the owner index from the owner show page
   * a link to the owner's show page from the list of their pets
   * a link to the owner's list of pets from the pet show page

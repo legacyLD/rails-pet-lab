@@ -26,12 +26,12 @@ development:
   database: rails_validations_errors_development
 
   # The specified database role being used to connect to postgres.
-  # To create additional roles in postgres see `$ createuser --help`.
+  # To create additional roles in postgres see `$ createowner --help`.
   # When left blank, postgres will use the default role. This is
-  # the same name as the operating system user that initialized the database.
-  #username: rails_validations_errors
+  # the same name as the operating system owner that initialized the database.
+  #ownername: rails_validations_errors
 
-  # The password associated with the postgres role (username).
+  # The password associated with the postgres role (ownername).
   #password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -43,7 +43,7 @@ development:
   # If your server runs on a different port number, change accordingly.
   #port: 5432
 
-  # Schema search path. The server defaults to $user,public
+  # Schema search path. The server defaults to $owner,public
   #schema_search_path: myapp,sharedapp,public
 
   # Minimum log levels, in increasing order:
@@ -71,7 +71,7 @@ test:
 # On Heroku and other platform providers, you may have a full connection URL
 # available as an environment variable. For example:
 #
-#   DATABASE_URL="postgres://myuser:mypass@localhost/somedatabase"
+#   DATABASE_URL="postgres://myowner:mypass@localhost/somedatabase"
 #
 # You can use this database configuration with:
 #
@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: rails_validations_errors_production
-  username: rails_validations_errors
+  ownername: rails_validations_errors
   password: <%= ENV['RAILS_VALIDATIONS_ERRORS_DATABASE_PASSWORD'] %>

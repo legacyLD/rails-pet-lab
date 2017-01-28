@@ -1,6 +1,6 @@
 ## Part 2: Pets Have Many Appointments
 
-![owner-pet-appointment-erd](https://cloud.githubusercontent.com/assets/3254910/22278437/6bc4468c-e278-11e6-9813-1855a623a323.png)
+![owner-pet-appointment-erd](https://cloud.githubownercontent.com/assets/3254910/22278437/6bc4468c-e278-11e6-9813-1855a623a323.png)
 
 1. Generate a model for `Appointment`s.  It should have:
   - a datetime field for the `time` of the appointment,  

@@ -1,6 +1,6 @@
 ## Part 1: Owners Have Many Pets
 
-![owner-pet-erd](https://cloud.githubusercontent.com/assets/3254910/22278438/6dd48c66-e278-11e6-8ed6-d24af148672b.png)
+![owner-pet-erd](https://cloud.githubownercontent.com/assets/3254910/22278438/6dd48c66-e278-11e6-8ed6-d24af148672b.png)
 
 1. This app has models for owners and pets. In this app, each owner will have many pets, and each pet will belong to one owner. Change the `Owner` and `Pet` models to reflect this relationship.
 
@@ -10,7 +10,7 @@
 
   <details>
     <summary>Hint: how to generate migration to add foreign key?</summary>
-    The example from the docs adds a user foreign key to a products table, by running `bin/rails generate migration AddUserRefToProducts user:references`, but you can also use something like `rails g migration AddUserRefToProducts user:belongs_to`.  Just replace the example models with the names this app needs!
+    The example from the docs adds a owner foreign key to a products table, by running `bin/rails generate migration AddownerRefToProducts owner:references`, but you can also use something like `rails g migration AddownerRefToProducts owner:belongs_to`.  Just replace the example models with the names this app needs!
   </details>
 
 1. In the Terminal, open up the Rails console, and create a few associated instances of pets and owners.
