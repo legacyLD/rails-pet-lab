@@ -18,6 +18,8 @@ gem 'jbuilder', '>= 2.0'
 gem 'sdoc', '>= 0.4.0', group: :doc
 
 
+gem 'bcrypt'
+
 # Access an IRB console on exception pages or by using <%= console %> in views
 gem 'web-console', '>= 2.0', group: :development
 
